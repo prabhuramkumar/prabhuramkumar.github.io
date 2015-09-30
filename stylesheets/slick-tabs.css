@@ -1,3 +1,8 @@
+body {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
 .swipe-tabs.container-fluid {
   width: 100%;
   max-width: 1200px;
@@ -51,7 +56,6 @@
 }
 
 .swipe-tabs, .swipe-tabs-container {
-   font-family: 'Arial';
    color: #505050;
 }
 
@@ -67,5 +71,14 @@
 .slick-initialized .swipe-tab.active-tab {
   background-color: #ff7260;
   color: #ffffff;
+}
+
+.slick-title {
+  font-size: 28px;
+  color: #ff7260;
+}
+
+.slick-title, .slick-caption {
+  text-align: center;
 }
 
